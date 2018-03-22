@@ -1,0 +1,60 @@
+body {
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+
+.ui.table thead th {
+  background-color:#b38f00;
+  color:white;
+}
+
+.ui.table tr:hover {
+  background-color:#f2f2f2;
+}
+
+.holder, .holder .holder-img img {
+    position: relative;
+    max-height:100%;
+    width: 300px;
+}
+.holder {
+    overflow: hidden;
+    margin: 0 auto;
+}
+.holder-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.90);
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.holder:hover .holder-hover .desc {
+    top: 35%;
+}
+.holder:hover .holder-hover, .holder:hover .holder-hover .desc{
+    opacity: 1;
+}
+.holder-hover .desc {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    opacity: 0;
+    -webkit-transform: translateY(-55%);
+    transform: translateY(-55%);
+    -webkit-transition: all 0.3s 0.2s;
+    transition: all 0.3s 0.2s;
+    padding: 0 20px;
+}
+.holder:hover .holder-hover, .holder:hover .holder-hover .desc {
+    opacity: 1;
+}
+.desc, .desc h4 {
+    text-align: center;
+    color: #222;
+    position: relative;
+    top:35px;
+}
