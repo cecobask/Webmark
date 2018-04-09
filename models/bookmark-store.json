@@ -1,63 +1,63 @@
 {
   "bookmarkCollection": [
     {
-      "id" : "01",
+      "id": "01",
       "title": "HTML Learning Resources",
       "resources": [
         {
-          "id" : "04",
+          "id": "04",
           "title": "w3schools.com",
           "link": "https://www.w3schools.com/html/"
         },
         {
-          "id" : "05",
+          "id": "05",
           "title": "codecademy.com",
           "link": "https://www.codecademy.com/learn/learn-html"
         },
         {
-          "id" : "06",
+          "id": "06",
           "title": "html.com",
           "link": "https://html.com/"
         }
       ]
     },
     {
-      "id" : "02",
+      "id": "02",
       "title": "CSS Learning Resources",
       "resources": [
         {
-          "id" : "07",
+          "id": "07",
           "title": "CSS Tutorial.NET",
           "link": "https://www.csstutorial.net/"
         },
         {
-          "id" : "08",
+          "id": "08",
           "title": "Learn to Code HTML & CSS",
           "link": "https://learn.shayhowe.com/"
         },
         {
-          "id" : "09",
+          "id": "09",
           "title": "CSS Video Courses and Tutorials | lynda",
           "link": "https://www.lynda.com/CSS-training-tutorials/447-0.html"
         }
       ]
     },
     {
-      "id" : "03",
+      "id": "03",
       "title": "Javascript Learning Resources",
       "resources": [
         {
-          "id" : "10",
+          "id": "10",
           "title": "JavaScript for Cats by Max Ogden",
           "link": "http://jsforcats.com/"
         },
         {
-          "id" : "11",
+          "id": "11",
           "title": "Eloquent JavaScript by Marijn Haverbeke",
           "link": "http://eloquentjavascript.net/"
         },
         {
-          "id" : "12",
+          "id": "12",
           "title": "JavaScript Is Sexy",
           "link": "http://javascriptissexy.com/how-to-learn-javascript-properly/"
         }

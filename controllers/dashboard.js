@@ -3,6 +3,7 @@
 const logger = require('../utils/logger');
 const bookmarkCollection = require('../models/bookmark-store.js');
 const bookmarkStore = require('../models/bookmark-store');
+const uuid = require('uuid');
 
 const dashboard = {
   index(request, response) {
@@ -13,6 +14,16 @@ const dashboard = {
     };
     logger.info('about to render', bookmarkStore.getAllBookmarks());
     response.render('dashboard', viewData);
+  },
+  
+  addBookmark(request, response) {
+    const newBookmark = {
+      id: uuid(),
+      title: request.body.title,
+      resources: [],
+    };
+    bookmarkStore.addBookmark(newBookmark);
+    response.redirect('/dashboard');
   },
 };
 

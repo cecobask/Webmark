@@ -1,0 +1,13 @@
+<form class="ui stacked segment form" action="/bookmark/{{bookmark.id}}/addResource" method="POST">
+  <div class="two fields">
+    <div class="field">
+      <label>Title</label>
+      <input placeholder="Title" type="text" name="title" autofocus required>
+    </div>
+    <div class="field">
+      <label>Link</label>
+      <input placeholder="Link" type="text" name="link" required>
+    </div>
+  </div>
+  <button class="ui blue submit button">Add Resource</button>
+</form>
