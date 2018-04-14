@@ -16,10 +16,12 @@ body {
     max-height:100%;
     width: 300px;
 }
+
 .holder {
     overflow: hidden;
     margin: 0 auto;
 }
+
 .holder-hover {
     position: absolute;
     top: 0;
@@ -32,12 +34,15 @@ body {
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
+
 .holder:hover .holder-hover .desc {
     top: 35%;
 }
-.holder:hover .holder-hover, .holder:hover .holder-hover .desc{
+
+.holder:hover .holder-hover, .holder:hover .holder-hover .desc {
     opacity: 1;
 }
+
 .holder-hover .desc {
     position: absolute;
     top: 0%;
@@ -49,12 +54,21 @@ body {
     transition: all 0.3s 0.2s;
     padding: 0 20px;
 }
+
 .holder:hover .holder-hover, .holder:hover .holder-hover .desc {
     opacity: 1;
 }
+
 .desc, .desc h4 {
     text-align: center;
     color: #222;
     position: relative;
     top:35px;
+}
+
+.name {
+  padding-top:20px;
+  padding-right:5px;
+  line-height:20px;
+  font-weight:bold;
 }

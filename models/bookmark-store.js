@@ -40,6 +40,10 @@ const bookmarkStore = {
     _.remove(resources, { id: bookmarkId});
   },
   
+  getUserBookmarks(userid) {
+    return this.store.findBy(this.collection, { userid: userid });
+  },
+  
 };
 
 module.exports = bookmarkStore;

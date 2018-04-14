@@ -3,16 +3,22 @@
 const logger = require('../utils/logger');
 const bookmarkStore = require('../models/bookmark-store');
 const uuid = require('uuid');
+const accounts = require ('./accounts.js');
 
 const bookmark = {
   index(request, response) {
     const bookmarkId = request.params.id;
+    const loggedInUser = accounts.getCurrentUser(request);
     logger.debug('Bookmark id = ', bookmarkId);
+    if (loggedInUser) {
     const viewData = {
       title: 'Bookmark',
       bookmark: bookmarkStore.getBookmark(bookmarkId),
+      fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
     };
     response.render('bookmark', viewData);
+    }
+    else response.redirect('/');
   },
   
   deleteResource(request, response) {

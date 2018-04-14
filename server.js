@@ -5,6 +5,9 @@ const logger = require('./utils/logger');
 const bodyParser = require('body-parser');
 const app = express();
 const exphbs = require('express-handlebars');
+const cookieParser = require('cookie-parser');
+
+app.use(cookieParser());
 app.use(bodyParser.urlencoded({ extended: false, }));
 app.use(express.static('public'));
 app.engine('.hbs', exphbs({
