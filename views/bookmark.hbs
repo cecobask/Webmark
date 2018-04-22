@@ -1,9 +1,14 @@
 {{> menu}}
 
-<section class="ui center aligned middle aligned segment">
-  <h2 class="ui header">
-    {{bookmark.title}}
-  </h2>
-  {{> listresources}}
+<section class="ui raised segment">
+    <h3 class="ui header">
+      Your bookmarks:
+    </h3>
+    <div class="ui cards">
+      {{#each bookmark.resources}}
+        {{> card }}
+      {{/each}}
+    </div>
+  </section>
+
   {{> addresource}}
-</section>

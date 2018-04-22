@@ -2,7 +2,6 @@
 
 const logger = require('../utils/logger');
 const bookmarkStore = require('../models/bookmark-store');
-const uuid = require('uuid');
 const accounts = require ('./accounts.js');
 
 const bookmark = {
@@ -39,12 +38,13 @@ const bookmark = {
     const bookmarkId = request.params.id;
     const bookmark = bookmarkStore.getBookmark(bookmarkId);
     const newResource = {
-      id: uuid(),
-      title: request.body.title,
-      link: request.body.link,
+        picture: request.files.picture,
+        title: request.body.title,
+        link: request.body.link
     };
-    bookmarkStore.addResource(bookmarkId, newResource);
-    response.redirect('/bookmark/' + bookmarkId);
+    bookmarkStore.addResource(bookmarkId, newResource, function () {
+      response.redirect('/bookmark/' + bookmarkId);
+    });
   },
 };
 

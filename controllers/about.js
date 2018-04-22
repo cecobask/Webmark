@@ -2,6 +2,7 @@
 
 const logger = require('../utils/logger');
 const accounts = require ('./accounts.js');
+const uuid = require('uuid');
 
 const about = {
   index(request, response) {
@@ -15,7 +16,7 @@ const about = {
     response.render('about', viewData);
     }
     else response.redirect('/');
-  }
+  },
   
 };
 

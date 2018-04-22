@@ -1,6 +1,7 @@
 <table class="ui table">
   <thead>
     <tr>
+      <th>Image</th>
       <th>Title</th>
       <th>Link</th>
       <th></th>
@@ -9,6 +10,9 @@
   <tbody>
     {{#each bookmark.resources}}
       <tr>
+        <td>
+          <img src="{{picture}}">
+        </td>
         <td>
           {{title}}
         </td>
