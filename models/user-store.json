@@ -20,6 +20,13 @@
       "email": "slav@dimov.com",
       "password": "123456",
       "id": "927b1ff4-c86d-47d3-8560-2c9fcea5c0b5"
+    },
+    {
+      "firstName": "manz",
+      "lastName": "jose",
+      "email": "manzi@gmail.com",
+      "password": "123456789",
+      "id": "be6fb434-7dda-4ade-9759-df296b629b71"
     }
   ]
 }

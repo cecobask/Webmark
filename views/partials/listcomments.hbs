@@ -1,0 +1,22 @@
+<div class="ui extra large comments container">
+  {{#each comments}}
+  <div class="comment" id="gform">
+    <a class="avatar">
+      <img src="https://www.impactnyc.org/wp-content/uploads/2018/02/missing-image-avatar.png">
+    </a>
+    <div class="content">
+      <a class="author">{{name}}</a>
+      <div class="metadata">
+        <span class="date">{{time}}</span>
+      </div>
+      <div class="text">
+        {{comment}}
+      </div>
+      <div class="actions">
+        <a href="/deletecomment/{{id}}" class="delete delcomment">Delete</a>
+      </div>
+    </div>
+  </div>
+  {{/each}}
+</div>
+  

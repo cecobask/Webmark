@@ -25,5 +25,7 @@ router.get('/signup', accounts.signup);
 router.get('/logout', accounts.logout);
 router.post('/register', accounts.register);
 router.post('/authenticate', accounts.authenticate);
+router.post('/addcomment', about.addComment);
+router.get('/deletecomment/:id', about.deleteComment);
 
 module.exports = router;

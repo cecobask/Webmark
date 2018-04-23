@@ -3,7 +3,6 @@
 const _ = require('lodash');
 const JsonStore = require('./json-store');
 const cloudinary = require('cloudinary');
-const path = require('path');
 const logger = require('../utils/logger');
 const uuid = require('uuid');
 
@@ -69,30 +68,6 @@ const bookmarkStore = {
   
   getUserBookmarks(userid) {
     return this.store.findBy(this.collection, { userid: userid });
-  },
-
-  
-
-  deletePicture(userId, image) {
-    const id = path.parse(image);
-    let album = this.getAlbum(userId);
-    _.remove(album.photos, { img: image });
-    cloudinary.api.delete_resources([id.name], function (result) {
-      console.log(result);
-    });
-  },
-
-  deleteAllPictures(userId) {
-    let album = this.getAlbum(userId);
-    if (album) {
-      album.photos.forEach(photo => {
-        const id = path.parse(photo.img);
-        cloudinary.api.delete_resources([id.name], result => {
-          console.log(result);
-        });
-      });
-      this.store.remove(this.collection, album);
-    }
   },
   
 };

@@ -37,10 +37,14 @@ const bookmark = {
   addResource(request, response) {
     const bookmarkId = request.params.id;
     const bookmark = bookmarkStore.getBookmark(bookmarkId);
+    let link = request.body.link;
+    if(!link.startsWith("https://") || !link.startsWith("http://")) {
+      link = "http://" + link;
+    }
     const newResource = {
         picture: request.files.picture,
         title: request.body.title,
-        link: request.body.link
+        link: link,
     };
     bookmarkStore.addResource(bookmarkId, newResource, function () {
       response.redirect('/bookmark/' + bookmarkId);
