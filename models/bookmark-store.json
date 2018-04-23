@@ -4,32 +4,7 @@
       "id": "ce76a455-ddd8-4659-ae07-1d79aafd2f1b",
       "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
       "title": "HOMER",
-      "resources": [
-        {
-          "id": "448a8b62-c8e5-4f4d-bc76-30227207f82c",
-          "picture": "http://res.cloudinary.com/cecobask/image/upload/v1524337646/rvll6lmwqfmrxcim647h.jpg",
-          "title": "312321",
-          "link": "321"
-        },
-        {
-          "id": "b2b9e428-1d89-457e-a974-16288f997136",
-          "picture": "http://res.cloudinary.com/cecobask/image/upload/v1524337674/b0z4izzqgtnpxqvdctsm.jpg",
-          "title": "ddas",
-          "link": "dsa"
-        },
-        {
-          "id": "ac8018d0-31df-4922-a927-905287cf3ae8",
-          "picture": "http://res.cloudinary.com/cecobask/image/upload/v1524337937/tx83exo78rcjkqtwumsi.jpg",
-          "title": "fsdfds",
-          "link": "rsd"
-        },
-        {
-          "id": "f4beef21-6df4-47f3-a237-445a47db8931",
-          "picture": "http://res.cloudinary.com/cecobask/image/upload/v1524438803/vzoigbruml5kajlrfokp.jpg",
-          "title": "Test",
-          "link": "NO!"
-        }
-      ]
+      "resources": []
     },
     {
       "id": "e805f39f-d779-4b64-a374-67661fd698df",
