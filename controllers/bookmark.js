@@ -38,7 +38,7 @@ const bookmark = {
     const bookmarkId = request.params.id;
     const bookmark = bookmarkStore.getBookmark(bookmarkId);
     let link = request.body.link;
-    if(!link.startsWith("https://") || !link.startsWith("http://")) {
+    if(!/^(f|ht)tps?:\/\//i.test(link)) {
       link = "http://" + link;
     }
     const newResource = {

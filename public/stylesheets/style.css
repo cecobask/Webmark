@@ -168,3 +168,10 @@ fieldset {
 :-ms-input-placeholder {
   color: #888;
 }
+
+.statistics {
+  border:solid black 3px;
+  padding-top:15px;
+  width: 60%;
+  margin: 0 auto;
+}

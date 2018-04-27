@@ -1,0 +1,24 @@
+<table class="ui table">
+  <thead>
+    <tr>
+      <th>User</th>
+      <th>∑ Collections</th>
+      <th>∑ Bookmarks</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each usersData}}
+      <tr>
+        <td>
+          {{name}}
+        </td>
+        <td>
+          {{collections}}
+        </td>
+         <td>
+          {{bookmarks}}
+        </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>

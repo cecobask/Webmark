@@ -1,46 +1,78 @@
 {
   "bookmarkCollection": [
     {
-      "id": "e805f39f-d779-4b64-a374-67661fd698df",
-      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
-      "title": "RR",
-      "resources": []
-    },
-    {
-      "id": "24fb5773-2a64-4b10-a864-9e1e55b8adc2",
-      "userid": "927b1ff4-c86d-47d3-8560-2c9fcea5c0b5",
-      "title": "SLAV",
-      "resources": []
-    },
-    {
-      "id": "efd2fb8d-5728-47f9-a2be-8a68de420338",
-      "userid": "927b1ff4-c86d-47d3-8560-2c9fcea5c0b5",
-      "title": "RRRRR",
-      "resources": []
-    },
-    {
-      "id": "9c5a321b-ab94-4817-aaee-d0234a3622ae",
-      "userid": "be6fb434-7dda-4ade-9759-df296b629b71",
-      "title": "wehtr",
+      "id": "cd078edb-4e47-4085-971a-c187f1f89bb7",
+      "userid": "e9a0f40c-8da9-4e56-9864-7ead419bb9dc",
+      "title": "HTML",
       "resources": [
         {
-          "id": "10dec59a-0fef-47c2-bd89-2d92ea81d06a",
-          "picture": "http://res.cloudinary.com/cecobask/image/upload/v1524498381/fybgc654eia3dofe3jdh.jpg",
-          "title": "r5gth",
-          "link": "http://rth"
+          "id": "7175b864-4778-4e08-87c4-c98d2d435ed1",
+          "picture": "http://res.cloudinary.com/cecobask/image/upload/v1524860824/no0ihdcxl4dsfudkzs2x.jpg",
+          "title": "w3schools.com",
+          "link": "https://www.w3schools.com/howto/howto_website.asp"
+        },
+        {
+          "id": "545713bf-400a-4f80-a506-5011557cf905",
+          "picture": "http://res.cloudinary.com/cecobask/image/upload/v1524861094/lewx2t7qe0vqvftzew4n.png",
+          "title": "codecademy.com",
+          "link": "https://www.codecademy.com/learn/make-a-website"
+        },
+        {
+          "id": "2c75e836-79d0-4168-ab23-e84b5bce4926",
+          "picture": "http://res.cloudinary.com/cecobask/image/upload/v1524861231/y64vj1syu0ulxdiplarv.jpg",
+          "title": "sitecake.com",
+          "link": "https://sitecake.com/"
         }
       ]
     },
     {
-      "id": "7bac9c22-0c23-46df-afa2-71c2ec229405",
-      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
-      "title": "dssa",
+      "id": "315ecfff-d603-4133-828b-34af6bc7a42f",
+      "userid": "e9a0f40c-8da9-4e56-9864-7ead419bb9dc",
+      "title": "CSS",
       "resources": [
         {
-          "id": "c699a096-341c-477f-81f5-1de12511af8c",
-          "picture": "http://res.cloudinary.com/cecobask/image/upload/v1524503114/corw966yvdfvco14qkpk.jpg",
-          "title": "dsada",
-          "link": "http://dsa"
+          "id": "f2f51386-c38d-46bd-8313-ac803dd006d5",
+          "picture": "http://res.cloudinary.com/cecobask/image/upload/v1524861385/ktkmjgbfyurgbadfrvqx.png",
+          "title": "csstutorial.net",
+          "link": "https://www.csstutorial.net/"
+        },
+        {
+          "id": "01382878-2597-45d9-968e-e69f8ffdb53f",
+          "picture": "http://res.cloudinary.com/cecobask/image/upload/v1524862711/nmrcojdu3pkpgd4e4lcu.png",
+          "title": "css-tricks.com",
+          "link": "https://css-tricks.com/"
+        }
+      ]
+    },
+    {
+      "id": "64b11a94-4bc7-4389-a7eb-224157534546",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "Homer's Bookmarks",
+      "resources": [
+        {
+          "id": "784b68ee-2e55-4bd2-89f1-76372a967add",
+          "picture": "http://res.cloudinary.com/cecobask/image/upload/v1524862874/wvaxinwbtmxdtxjq0mcr.jpg",
+          "title": "google.com",
+          "link": "https://www.google.com/"
+        },
+        {
+          "id": "2b742127-0f00-408f-9128-1993de8b5f8a",
+          "picture": "http://res.cloudinary.com/cecobask/image/upload/v1524862920/ehfti4yg4bjpjeqpqhhp.png",
+          "title": "facebook.com",
+          "link": "https://www.facebook.com/"
+        }
+      ]
+    },
+    {
+      "id": "7e4c2813-54f3-4243-9c88-b0273b526dc1",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "Random websites",
+      "resources": [
+        {
+          "id": "cde151e5-58f9-43d9-ac67-9cd1855e8749",
+          "picture": "http://res.cloudinary.com/cecobask/image/upload/v1524863253/vbzpi4ajtqwkvyhweh8o.png",
+          "title": "css-tricks.com",
+          "link": "https://css-tricks.com/"
         }
       ]
     }

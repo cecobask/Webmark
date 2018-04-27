@@ -23,10 +23,106 @@
      Move your mouse over the image for another view
   </p>
 
-<h3>
-  Number of bookmark sections: {{bookmarks.length}}
-</h3>
-<h3>
-  Number of bookmark resources: {{totalBookmarkResources}}
-</h3>
+<!-- {{> liststatistics}} -->
+
+<h2>
+  Current user:
+</h2>
+<div class="statistics">
+<div class="ui statistic">
+  <div class="label">
+    Bookmark collections:
+  </div>
+  <div class="value">
+    {{userBookmarks.length}}
+  </div>
+</div>
+
+<div class="ui statistic">
+  <div class="label">
+    Bookmarks:
+  </div>
+  <div class="value">
+    {{totalUserBookmarkResources}}
+  </div>
+</div>
+
+<div class="ui statistic">
+  <div class="label">
+    Avg bookmarks per collection:
+  </div>
+  <div class="value">
+    {{averageNoUserBookmarks}}
+  </div>
+</div>
+<br>
+<div class="ui green statistic">
+  <div class="label">
+    Biggest bookmark collection:
+  </div>
+  <div class="value">
+    {{biggestUserCollectionName}}
+  </div>
+</div>
+
+<div class="ui red statistic">
+  <div class="label">
+    Smallest bookmark collection:
+  </div>
+  <div class="value">
+    {{smallestUserCollectionName}}
+  </div>
+</div>
+</div>
+
+<h2>
+  All users:
+</h2>
+<div class="statistics">
+<div class="ui statistic">
+  <div class="label">
+    Bookmark collections:
+  </div>
+  <div class="value">
+    {{bookmarks.length}}
+  </div>
+</div>
+
+<div class="ui statistic">
+  <div class="label">
+    Bookmarks:
+  </div>
+  <div class="value">
+    {{totalBookmarkResources}}
+  </div>
+</div>
+
+<div class="ui statistic">
+  <div class="label">
+    Avg bookmarks:
+  </div>
+  <div class="value">
+    {{averageNoBookmarks}}
+  </div>
+</div>
+<br>
+<div class="ui green statistic">
+  <div class="label">
+    Most bookmarks:
+  </div>
+  <div class="value">
+    {{mostBookmarksUser}}
+  </div>
+</div>
+
+<div class="ui red statistic">
+  <div class="label">
+    Least bookmarks:
+  </div>
+  <div class="value">
+    {{leastBookmarksUser}}
+  </div>
+</div>
+</div>
+
 </section>
