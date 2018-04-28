@@ -13,6 +13,13 @@
       "email": "pastinelli@abv.bg",
       "password": "secret",
       "id": "e9a0f40c-8da9-4e56-9864-7ead419bb9dc"
+    },
+    {
+      "firstName": "Marge",
+      "lastName": "Simpson",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "id": "f92543c4-fdf4-4cd6-8ec7-c652b5a51c5c"
     }
   ]
 }

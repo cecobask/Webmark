@@ -24,7 +24,8 @@ const start = {
       let leastBookmarks = 100;
       let users = userStore.getAllUsers();
       let totalBookmarkResources = 0;
-      var usersData = [];
+      let usersData = [];
+      let averageNoUserBookmarks = 0;
       
       for(let x = 0; x < userBookmarks.length; x++) {
         totalUserBookmarkResources += userBookmarks[x].resources.length;
@@ -62,13 +63,21 @@ const start = {
         }
       }
       
+      averageNoUserBookmarks = Math.round(totalUserBookmarkResources/userBookmarks.length);
+      
+      if(averageNoUserBookmarks == NaN || biggestUserCollectionName == "" || smallestUserCollectionName == "") {
+        averageNoUserBookmarks = 0;
+        biggestUserCollectionName = "NONE";
+        smallestUserCollectionName = "NONE";
+      }
+      
       
       const viewData = {
         title: 'Welcome to Webmark',
         fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
         userBookmarks: bookmarkStore.getUserBookmarks(loggedInUser.id),
         totalUserBookmarkResources: totalUserBookmarkResources,
-        averageNoUserBookmarks: Math.round(totalUserBookmarkResources/userBookmarks.length),
+        averageNoUserBookmarks: averageNoUserBookmarks,
         biggestUserCollectionName: biggestUserCollectionName,
         smallestUserCollectionName: smallestUserCollectionName,
         bookmarks: bookmarks,

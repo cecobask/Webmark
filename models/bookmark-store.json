@@ -75,6 +75,19 @@
           "link": "https://css-tricks.com/"
         }
       ]
+    },
+    {
+      "id": "39a08e0b-25ae-4ed7-9996-d1b8c4765b59",
+      "userid": "f92543c4-fdf4-4cd6-8ec7-c652b5a51c5c",
+      "title": "Marge's Bookmarks",
+      "resources": [
+        {
+          "id": "bbb28524-fd6b-44a6-8699-957d9932f0b1",
+          "picture": "http://res.cloudinary.com/cecobask/image/upload/v1524902358/on883sdjm79rxlgp2nyf.png",
+          "title": "github.com",
+          "link": "https://github.com/"
+        }
+      ]
     }
   ]
 }
