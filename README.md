@@ -6,3 +6,8 @@ Users are able to authenticate and save their own bookmark collections.
 They can only view their own bookmarks. 
 Session control via [cookieParser](https://www.npmjs.com/package/cookie-parser).  
 Images for the bookmarks are stored in [cloudinary](https://cloudinary.com/).
+
+>**Test account:**
+
+>**e-mail: homer@simpson.com  
+>password: secret**
